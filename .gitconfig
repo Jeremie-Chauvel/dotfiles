@@ -1,0 +1,24 @@
+[user]
+        name  = Jeremie Chauvel
+        email = Jeremie-Chauvel@users.noreply.github.com
+[core]
+        editor = vim
+        excludesfile = ~/.gitexcludes
+[color]
+        branch      = auto
+        diff        = auto
+        interactive = auto
+        status      = auto
+        ui          = auto
+[push]
+        default = current
+[alias]
+        clo = clone
+        co  = checkout
+        st  = status
+        pur = pull --rebase
+        ci  = commit
+        rc  = rebase --continue
+        lg  = log -M --decorate --graph --oneline
+        br  = branch
+        sth = stash
