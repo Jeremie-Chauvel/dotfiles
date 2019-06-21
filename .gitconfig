@@ -18,6 +18,8 @@
         st  = status
         pur = pull --rebase
         ci  = commit
+        cm = commit -m
+        ca = commit --amend
         rc  = rebase --continue
         lg  = log -M --decorate --graph --oneline
         br  = branch
